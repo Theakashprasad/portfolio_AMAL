@@ -1,68 +1,93 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <div
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            color: "#333",
+            textAlign: "center",
+            padding: "20px",
+            border: "2px solid #007ACC",
+            borderRadius: "10px",
+            backgroundColor: "#f8f9fa",
+            transition: "all 0.3s ease",
+          }}
+        >
+          AutoCAD
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <div
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            color: "#333",
+            textAlign: "center",
+            padding: "20px",
+            border: "2px solid #00A4E4",
+            borderRadius: "10px",
+            backgroundColor: "#f8f9fa",
+            transition: "all 0.3s ease",
+          }}
+        >
+          Revit
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <div
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            color: "#333",
+            textAlign: "center",
+            padding: "20px",
+            border: "2px solid #FF6B35",
+            borderRadius: "10px",
+            backgroundColor: "#f8f9fa",
+            transition: "all 0.3s ease",
+          }}
+        >
+          Navis
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <div
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            color: "#333",
+            textAlign: "center",
+            padding: "20px",
+            border: "2px solid #28a745",
+            borderRadius: "10px",
+            backgroundColor: "#f8f9fa",
+            transition: "all 0.3s ease",
+          }}
+        >
+          Dialux
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <div
+          style={{
+            fontSize: "18px",
+            fontWeight: "bold",
+            color: "#333",
+            textAlign: "center",
+            padding: "20px",
+            border: "2px solid #D83B01",
+            borderRadius: "10px",
+            backgroundColor: "#f8f9fa",
+            transition: "all 0.3s ease",
+          }}
+        >
+          MS Office
+        </div>
       </Col>
     </Row>
   );

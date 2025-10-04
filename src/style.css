@@ -159,6 +159,44 @@ button:focus {
   width: 2.5em !important;
 }
 
+/* AMAL R Logo Styles */
+.logo-text {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-text:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo-text .accent {
+  color: #64ffda;
+  background: linear-gradient(135deg, #64ffda 0%, #00bcd4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 767px) {
+  .logo-text {
+    font-size: 1.4em;
+    letter-spacing: 2px;
+  }
+}
+
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
