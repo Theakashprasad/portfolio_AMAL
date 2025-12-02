@@ -35,27 +35,25 @@ function Home2() {
               My field of interest lies in{" "}
               <i>
                 <b className="purple">BIM Execution, Clash Detection,</b> and{" "}
-                <b className="purple">Electrical Systems Modeling</b>
+                <b className="purple">MEPF Systems modeling</b>
               </i>
               , as well as working on{" "}
               <b className="purple">Infrastructure and Building Projects</b>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for{" "}
-              <i>
-                <b className="purple">real-world electrical systems</b>
-              </i>
-              , having practical field experience in{" "}
-              <b className="purple">33/11 kV substations</b> and{" "}
-              <b className="purple">33 kV interconnection projects</b>, bridging
-              the gap between{" "}
-              <i>
-                <b className="purple">digital modeling</b>
-              </i>{" "}
-              and{" "}
-              <i>
-                <b className="purple">on-site execution</b>
-              </i>
+              <p>
+                Previously, I worked as an{" "}
+                <b className="purple">Electrical Project Engineer</b> for{" "}
+                <b className="purple">33/11 kV substation</b> and{" "}
+                <b className="purple">
+                  33 kV interconnection & bifurcation construction projects
+                </b>
+                , gaining valuable{" "}
+                <i>
+                  <b className="purple">on-site execution experience</b>
+                </i>
+                .
+              </p>
               .
             </p>
           </Col>
@@ -73,16 +71,6 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  // href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/amal-r-140500180/?profileId=ACoAACrJ_MABATmkkTSswzuhGlPDPAMiiyPF3o4"
